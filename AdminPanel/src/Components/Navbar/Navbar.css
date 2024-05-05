@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1px 40px;
+    box-shadow: 0 1px 3px -2px black;
+    margin-bottom: 20px;
+    background: white;
+}
+.navlogo{
+    width: 100px;
+}
+.profilelogo{
+    width: 100px;
+}
+
+h1{
+    padding-right:65rem;
+}
+
+@media(max-width:600px){
+    .navbar{
+        padding:15px 30px;
+    }
+    .navlogo{
+        width: 60px;
+    }
+    .profilelogo{
+        width: 60px;
+    }
+    h1{
+        padding-right: 10rem;
+    }
+}
